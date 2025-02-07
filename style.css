@@ -1,0 +1,29 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.left
+{
+    width: 20%;
+    height: 100vh;
+    float: left;
+    position: fixed;
+    top: 72px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.right
+{
+    width: 80%;
+    float: right;
+    position: relative;
+    top: 72px;
+    height: 100vh;
+}
+ul li
+{
+    padding-left: 70px;
+    padding-right: 20px;
+}
